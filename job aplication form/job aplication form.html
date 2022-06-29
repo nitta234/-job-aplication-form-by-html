@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>job aplication form</title>
+<style media="screen">
+    body{
+font-family: "comic sans MS",sans-serif;
+background-color: lightgreen;
+margin:0;
+}
+h1{
+  background-color: forestgreen;
+  text-align: center;
+  padding: 10px;
+  color: white;
+}
+td{
+  padding: 8px;
+}
+input{
+  height: 20px;
+  border-radius: 15px;
+  background-color: forestgreen;
+  color: white;
+}
+textarea{
+
+  border-radius: 10px;
+  background: forestgreen;
+  color: white;
+}
+input:focus; textarea:focus{
+  outline: none;
+  border: 1px solid:forestgreen;
+}
+.button{
+  display: block;
+  align-items: center;
+}
+</style>
+
+  </head>
+  <body>
+    <h1>aplicaton form </h1>
+<div class="first section">
+
+<fieldset>
+  <legend align="center"> Aplication personal details</legend>
+
+    <table  width="90%">
+       <tr>
+         <td> First Name</td>
+         <td><input type="text" name="aplication name " value="" placeholder="First name " size="20"></td>
+<td> Middle Name </td>
+  <td><input type="text" name="aplication name " value="" placeholder="Middle name " size="20"></td>
+  <td> Last Name </td>
+    <td><input type="text" name="aplication name " value="" placeholder="Last name " size="20"></td>
+</tr>
+
+<tr>
+  <td> Farther name </td>
+   <td><input type="text" name="Father name  " value="" placeholder="Father name  " size="25"></td>
+   <td>Mother name </td>
+   <td><input type="text" name="mother  name " value="" placeholder="Mother name " size="25"></td>
+</tr>
+
+<tr>
+   <td> Current Adress </td>
+   <td>
+   <textarea name="name" rows="8" cols="50"></textarea>
+  </td>
+    <td> Permanant Adress</td>
+  <td>
+  <textarea name="name" rows="8" cols="50"></textarea>
+</tr>
+
+  <tr>
+    <td> Phone Number</td>
+  </tr>
+
+  <tr>
+    <td> Home Phone Number </td>
+<td><input type="text" name="mother  name " value="" placeholder="Phone Number " size="25"></td>
+<td> Personal Phone Number </td>
+<td><input type="number" name="mother  name " value="" placeholder="Phone Number " size="25"></td>
+
+  </tr>
+<tr>
+ <td> Date of Birth</td>
+ <td><input type="date" name= date of birth ></td>
+ <td> Place of Birth</td>
+ <td>
+    <select>
+    <option value=""> Rajshai</option>
+    <option value=""> Dhaka</option>
+    <option value=""> Chittagong</option>
+    <option value=""> Shylet</option>
+    <option value=""> Khulna </option>
+  </select>
+ </td>
+</tr>
+
+<tr>
+  <td colspan="2"> Select Gender</td>
+<td>
+  <input type="radio" name="Gender" value="Male"> Male
+  <input type="radio" name="Gender" value="Female"> Female
+    <input type="radio" name="Gender" value="Other"> Other
+</td>
+</tr>
+<tr>
+  <td> Highest Education Qualification</td>
+  <td> <input type="text"> </input> </td>
+  <td> Passing Year</td>
+  <td> <input type="date"> </input></td>
+</tr>
+<tr>
+  <td colspan="2"> languse Skill</td>
+  <td>
+<input type="checkbox" name="languse" value="Bangla"> bangla
+    <input type="checkbox" name="languse" value="English"> English
+    <input type="checkbox" name="languse" value="Hindi"> Hindi
+    <input type="checkbox" name="languse" value="Urdu"> Urdu
+  </td>
+</tr>
+<tr>
+  <td colspan="2"> select YourHobby</td>
+  <td>
+<input type="checkbox" name="Hobby" value="Bangla"> Reading
+    <input type="checkbox" name="Hobby" value="English"> travelling
+    <input type="checkbox" name="Hobby" value="Hindi"> Cooking
+    <input type="checkbox" name="Hobby" value="Urdu"> Gossip
+  </td>
+</tr>
+<!-- new row -->
+<tr>
+  <td>
+    Nationality
+    </td>
+  <td>
+<select class="Nation" name="Nationality">
+              <option value="">Bangladeshi</option>
+                <option value="">Indian</option>
+              <option value="">Pakistani</option>
+              <option value="">Srilanka</option>
+</select>
+              </td>
+</tr>
+    </table>
+</fieldset>
+</div>
+
+
+ <!-- Div Nuber 02 -->
+
+
+ <div class="Education">
+   <h1> Education Qualification </h1>
+  <table width="100%">
+
+   <tr>
+     <td> Sl Num</td>
+     <td> Qualification</td>
+     <td> Institute/University</td>
+     <td> Passing Year</td>
+ </tr>
+ <tr>
+   <td>1</td>
+   <td> <input type="text" name="Qualification" value=""> </td>
+   <td>  <input type="text" name="" value=""> </td>
+   <td>  <input type="date" name="" value=""> </td>
+ </tr>
+
+ <tr>
+   <td>2</td>
+   <td> <input type="text" name="Qualification" value=""> </td>
+   <td>  <input type="text" name="" value=""> </td>
+   <td>  <input type="date" name="" value=""> </td>
+ </tr>
+ <tr>
+   <td>3</td>
+   <td> <input type="text" name="Qualification" value=""> </td>
+   <td>  <input type="text" name="" value=""> </td>
+   <td>  <input type="date" name="" value=""> </td>
+ </tr>
+ </table>
+ </div>
+
+
+ <!-- work experince -->
+
+<div class="work experince">
+  <h1> Work experince 01</h1>
+<fieldset align="center">
+  <legend > Work experince</legend>
+
+  <table width="100%">
+  <tr>
+    <td> Sl </td>
+      <td>Company Name/address </td>
+      <td>Work Rules</td>
+      <td> From ------to </td>
+  </tr>
+  <tr>
+    <td> 01 </td>
+      <td>  <textarea name="name" rows="6" cols="40"></textarea> </td>
+    <td>  <input type="text" name="c Name" value=""> </td>
+    <td>  <input type="date" name="c Name" value=""> </td>
+    <td>  <input type="date" name="c Name" value=""> </td>
+  </tr>
+  </table>
+  </fieldset>
+</div>
+
+
+<div class="work experince2">
+  <h1> Work experince 02</h1>
+<fieldset align="center">
+  <legend > Work experince</legend>
+
+  <table width="100%">
+  <tr>
+    <td> Sl </td>
+      <td>Company Name/address </td>
+      <td>Work Rules</td>
+      <td> From ------to </td>
+  </tr>
+  <tr>
+    <td> 01 </td>
+      <td>  <textarea name="name" rows="6" cols="40"></textarea> </td>
+    <td>  <input type="text" name="c Name" value=""> </td>
+    <td>  <input type="date" name="c Name" value=""> </td>
+    <td>  <input type="date" name="c Name" value=""> </td>
+  </tr>
+  </table>
+  </fieldset>
+</div>
+
+<div class="work experince3">
+  <h1> Work experince 03</h1>
+<fieldset align="center">
+  <legend > Work experince</legend>
+
+  <table width="100%">
+  <tr>
+    <td> Sl </td>
+      <td>Company Name/address </td>
+      <td>Work Rules</td>
+      <td> From ------to </td>
+  </tr>
+  <tr>
+    <td> 01 </td>
+      <td>  <textarea name="name" rows="6" cols="40"></textarea> </td>
+    <td>  <input type="text" name="c Name" value=""> </td>
+    <td>  <input type="date" name="c Name" value=""> </td>
+    <td>  <input type="date" name="c Name" value=""> </td>
+  </tr>
+  </table>
+  </fieldset>
+</div>
+
+<div class="Other Option">
+<h1> Other Information</h1>
+<fieldset>
+  <legend> Other Information </legend>
+  <table>
+    <tr>
+      <td colspan="2"> Job Type  </td>
+      <td> <input type="radio" name="job" value="Permanat"</td>  Permanat
+      <td> <input type="radio" name="job" value="Cotacct"</td>  Cotacct
+      <td> <input type="radio" name="job" value="Other"</td>  Other
+      </tr>
+
+      <tr>
+        <td colspan="2"> Date of Joinng</td>
+        <td><input type="date" ></td>
+        <td> Joinng Time </td>
+          <td><input type="date" ></td>
+      </tr>
+<tr>
+  <td colspan="2"> Prefere to Joinng</td>
+  <td>
+    <input type="radio" name="city" value=" Rajshai"> Rajshai
+   <input type="radio" name="city" value=" Dhaka"> Dhaka
+   <input type="radio" name="city" value=" Chittagong">Chittagong
+ </td>
+</tr>
+<tr>
+  <td> Upload Your Photo </td>
+  <td> <input type="file"></td>
+  <td> Upload Your Signature</td>
+  <td> <input type="file"></td>
+</tr>
+<tr>
+  <td> <input type="radio"></td>
+  <td> <p>I promiss that all of above Information   is right and i will consider all the punishment if i will provide worng Information</p></td>
+</tr>
+<tr>
+  <td> <input type="submit" value="submit" class="button"></td>
+  <td> <input type="reset" value="reset"class="button"></td>
+</tr>
+  </table>
+  </fieldset>
+
+</div>
+
+
+  </body>
+</html>
